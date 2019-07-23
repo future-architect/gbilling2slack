@@ -8,7 +8,7 @@ Slack notifications tools for Google Cloud Platform Billing.
 This package notifies gcp billing to your slack channel.
 
 * Cloud Scheduler sends message to Cloud Pub/Sub and Cloud Pub/Sub triggers Cloud Functions. 
-* Cloud Functions gets billing from bigquery table and sends it to your slack channel.
+* Cloud Functions gets billing from BigQuery table and sends it to your Slack channel.
 * You can see billing on Slack channel.
 
 ## Requirements
@@ -24,9 +24,9 @@ This package notifies gcp billing to your slack channel.
 
 |#  |variables       |Note                             |
 |---|----------------|---------------------------------|
-| 1 |TABLE_NAME      |table name of billing on bigquery|
-| 2 |SLACK_API_TOKEN |slack api token                  |
-| 3 |SLACK_CHANNEL   |slack channel name               |
+| 1 |TABLE_NAME      |Table name of billing on BigQuery|
+| 2 |SLACK_API_TOKEN |Slack api token                  |
+| 3 |SLACK_CHANNEL   |Slack channel name               |
 
 
 ## Usage
